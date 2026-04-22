@@ -74,33 +74,6 @@ Contabilizar:
 * errores del cliente (4xx)
 * errores del servidor (5xx)
 
----
-
-### Variante B
-
-Determinar el código de estado más frecuente.
-
----
-
-### Variante C
-
-Detectar el primer evento crítico (503).
-
----
-
-### Variante D
-
-Detectar tres errores consecutivos.
-
----
-
-### Variante E
-
-Calcular índice de salud:
-
-```text id="2u4vvx"
-Health Score = 100 - (errores × 10)
-```
 
 ---
 
